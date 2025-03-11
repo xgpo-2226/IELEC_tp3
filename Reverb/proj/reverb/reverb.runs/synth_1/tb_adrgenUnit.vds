@@ -1,0 +1,148 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Mar 11 16:27:19 2025
+# Process ID: 182256
+# Current directory: /homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/proj/reverb/reverb.runs/synth_1
+# Command line: vivado -log tb_adrgenUnit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_adrgenUnit.tcl
+# Log file: /homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/proj/reverb/reverb.runs/synth_1/tb_adrgenUnit.vds
+# Journal file: /homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/proj/reverb/reverb.runs/synth_1/vivado.jou
+# Running On        :fl-tp-br-634
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.04.2 LTS
+# Processor Detail  :Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+# CPU Frequency     :900.004 MHz
+# CPU Physical cores:4
+# CPU Logical cores :4
+# Host memory       :33538 MB
+# Swap memory       :4294 MB
+# Total Virtual     :37833 MB
+# Available Virtual :32087 MB
+#-----------------------------------------------------------
+source tb_adrgenUnit.tcl -notrace
+create_project: Time (s): cpu = 00:00:56 ; elapsed = 00:00:58 . Memory (MB): peak = 1571.516 ; gain = 203.840 ; free physical = 17568 ; free virtual = 30000
+Command: synth_design -top tb_adrgenUnit -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 182965
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2003.105 ; gain = 425.652 ; free physical = 16824 ; free virtual = 29267
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'tb_adrgenUnit' [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:9]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: extra waveform elements [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:28]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: extra waveform elements [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:29]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: extra waveform elements [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:30]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:35]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:38]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:40]
+WARNING: [Synth 8-312] ignoring unsynthesizable construct: wait statement with no conditon [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:42]
+INFO: [Common 17-14] Message 'Synth 8-312' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+ERROR: [Synth 8-403] loop limit (65536) exceeded [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:36]
+ERROR: [Synth 8-285] failed synthesizing module 'tb_adrgenUnit' [/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/src/hdl/tb_adrgenUnit.vhd:9]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 2143.074 ; gain = 565.621 ; free physical = 16750 ; free virtual = 29191
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 100 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Tue Mar 11 16:29:02 2025...

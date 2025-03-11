@@ -1,0 +1,18 @@
+0.7
+2020.2
+May 22 2024
+18:54:44
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sobel.sim/sim_1/behav/xsim/glbl.v,1708598507,verilog,,,,glbl,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/adrgenUnit.vhd,1741080765,vhdl,/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/sobelProc.vhd,,,adrgenunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/automate.vhd,1741080388,vhdl,/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/sobelProc.vhd,,,automate,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/gradientUnit.vhd,1739889140,vhdl,/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/operativeUnit.vhd,,,gradientunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/operativeUnit.vhd,1638856186,vhdl,/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/sobelProc.vhd,,,operativeunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/pixedgeReg.vhd,1739891265,vhdl,/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/operativeUnit.vhd,,,pixedgereg,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/regUnit.vhd,1739874255,vhdl,/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/operativeUnit.vhd,,,regunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/sobelProc.vhd,1613404150,vhdl,/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/tb_sobelProc.vhd,,,sobelproc,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/tb_adrgenUnit.vhd,1581859058,vhdl,,,,tb_adrgenunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/tb_automate.vhd,1581861970,vhdl,,,,tb_automate,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/tb_gradientUnit.vhd,1739890388,vhdl,,,,tb_gradientunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/tb_operativeUnit.vhd,1607407270,vhdl,,,,tb_operativeunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/tb_regUnit.vhd,1607407226,vhdl,,,,tb_regunit,,,,,,,,
+/homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP2_Sobel/sobel/sources/tb_sobelProc.vhd,1561110000,vhdl,,,,tb_sobelproc,,,,,,,,

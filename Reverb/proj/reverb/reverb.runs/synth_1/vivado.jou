@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:36:09 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Mar 11 16:27:19 2025
+# Process ID: 182256
+# Current directory: /homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/proj/reverb/reverb.runs/synth_1
+# Command line: vivado -log tb_adrgenUnit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source tb_adrgenUnit.tcl
+# Log file: /homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/proj/reverb/reverb.runs/synth_1/tb_adrgenUnit.vds
+# Journal file: /homes/g24obuzo/Documents/UEF_Integrated_Electronics/TP3_Filtres/IELEC_tp3/Reverb/proj/reverb/reverb.runs/synth_1/vivado.jou
+# Running On        :fl-tp-br-634
+# Platform          :Ubuntu
+# Operating System  :Ubuntu 24.04.2 LTS
+# Processor Detail  :Intel(R) Core(TM) i5-6600 CPU @ 3.30GHz
+# CPU Frequency     :900.004 MHz
+# CPU Physical cores:4
+# CPU Logical cores :4
+# Host memory       :33538 MB
+# Swap memory       :4294 MB
+# Total Virtual     :37833 MB
+# Available Virtual :32087 MB
+#-----------------------------------------------------------
+source tb_adrgenUnit.tcl -notrace

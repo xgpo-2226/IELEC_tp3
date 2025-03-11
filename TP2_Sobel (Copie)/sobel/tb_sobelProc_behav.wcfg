@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_sobelProc_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_sobelProc" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="147.614 ns"></ZoomEndTime>
+      <Cursor1Time time="0.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject type="logic" fp_name="/tb_sobelProc/S_clk">
+      <obj_property name="ElementShortName">S_clk</obj_property>
+      <obj_property name="ObjectShortName">S_clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/S_reset">
+      <obj_property name="ElementShortName">S_reset</obj_property>
+      <obj_property name="ObjectShortName">S_reset</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/S_go">
+      <obj_property name="ElementShortName">S_go</obj_property>
+      <obj_property name="ObjectShortName">S_go</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/S_enM_R">
+      <obj_property name="ElementShortName">S_enM_R</obj_property>
+      <obj_property name="ObjectShortName">S_enM_R</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/S_ADR_R">
+      <obj_property name="ElementShortName">S_ADR_R[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S_ADR_R[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/S_pixel">
+      <obj_property name="ElementShortName">S_pixel[7:0]</obj_property>
+      <obj_property name="ObjectShortName">S_pixel[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/S_enM_W">
+      <obj_property name="ElementShortName">S_enM_W</obj_property>
+      <obj_property name="ObjectShortName">S_enM_W</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/S_ADR_W">
+      <obj_property name="ElementShortName">S_ADR_W[13:0]</obj_property>
+      <obj_property name="ObjectShortName">S_ADR_W[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/S_pixEdge">
+      <obj_property name="ElementShortName">S_pixEdge</obj_property>
+      <obj_property name="ObjectShortName">S_pixEdge</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/S_StartDisplay">
+      <obj_property name="ElementShortName">S_StartDisplay</obj_property>
+      <obj_property name="ObjectShortName">S_StartDisplay</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/I_inc_PtrLine">
+      <obj_property name="ElementShortName">I_inc_PtrLine</obj_property>
+      <obj_property name="ObjectShortName">I_inc_PtrLine</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/I_inc_PtrCol">
+      <obj_property name="ElementShortName">I_inc_PtrCol</obj_property>
+      <obj_property name="ObjectShortName">I_inc_PtrCol</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/I_selPix">
+      <obj_property name="ElementShortName">I_selPix[1:0]</obj_property>
+      <obj_property name="ObjectShortName">I_selPix[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/O_EndImage">
+      <obj_property name="ElementShortName">O_EndImage</obj_property>
+      <obj_property name="ObjectShortName">O_EndImage</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/O_NewLine">
+      <obj_property name="ElementShortName">O_NewLine</obj_property>
+      <obj_property name="ObjectShortName">O_NewLine</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/O_ADR_R">
+      <obj_property name="ElementShortName">O_ADR_R[13:0]</obj_property>
+      <obj_property name="ObjectShortName">O_ADR_R[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/O_ADR_W">
+      <obj_property name="ElementShortName">O_ADR_W[13:0]</obj_property>
+      <obj_property name="ObjectShortName">O_ADR_W[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/S_PtrLine">
+      <obj_property name="ElementShortName">S_PtrLine[6:0]</obj_property>
+      <obj_property name="ObjectShortName">S_PtrLine[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_sobelProc/sobelProc_1/adrgenUnit_1/S_PtrCol">
+      <obj_property name="ElementShortName">S_PtrCol[6:0]</obj_property>
+      <obj_property name="ObjectShortName">S_PtrCol[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_sobelProc/sobelProc_1/automate_1/current_state">
+      <obj_property name="ElementShortName">current_state</obj_property>
+      <obj_property name="ObjectShortName">current_state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/tb_sobelProc/sobelProc_1/automate_1/next_state">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+</wave_config>
